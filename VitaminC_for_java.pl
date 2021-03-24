@@ -24,7 +24,7 @@ while (1) {
 	# run
 	say "- - - - - ";
 	$filename =~ s/.java$//;
-	`java $filename`;
+	system "java $filename";
 	say "- - - - - \n";
 
 }
