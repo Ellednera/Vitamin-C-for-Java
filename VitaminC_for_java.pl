@@ -15,17 +15,16 @@ while (1) {
 	}
 	last if $filename eq "exit";
 	
-	my @errors = system "javac $filename";
+	say "";
+	# compile
+	`javac $filename`;
 	
-	# there's probably some errors
-	if ($errors[0]) {
-		say @errors, "\n"; # the last line is th error code of the program
-		next;
-	} 
+	say "";
 	
-	say "\n- - - - - ";
+	# run
+	say "- - - - - ";
 	$filename =~ s/.java$//;
-	system "java $filename";
+	`java $filename`;
 	say "- - - - - \n";
 
 }
