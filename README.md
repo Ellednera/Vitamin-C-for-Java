@@ -2,6 +2,9 @@
 Compile and run java source codes in one go.
 This is only good for running Java codes from the command prompt.
 
+### Name of the Program
+Don't take it too seriously :)
+
 ### Usage
 Just type in your source code filename __with the extension__
 
