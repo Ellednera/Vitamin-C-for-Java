@@ -2,6 +2,9 @@
 Compile and run java source codes in one go.
 This is only good for running Java codes from the command prompt.
 
+### Usage
+Just type in your source code filename __with the extension__
+
 ### Mechanism
 All this does is just issue cmd commands for "javac" and "java", all you need to do is to input your java file (one at a time).
 
