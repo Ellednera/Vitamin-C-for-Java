@@ -15,6 +15,7 @@ The dashed lines indicate both the beginning and the end of the program being ru
 
 ### Issues
 1. The java program will still be run even if there are errors with it. What you can do is to first check for the error messages. If there are error messages then disregard the execution part (indicated with the dashed lines) as that might be the previous compiled java program being run.
+2. The executable file might take some time to startup, so don't worry if you see a blank screen. There will be text appearing in the program to prompt for the filename
 
 ### Notes
 1. This program is not really complete, feel free to modify it and make it better :)
