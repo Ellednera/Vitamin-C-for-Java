@@ -1,6 +1,6 @@
 # Vitamin C for Java
 Compile and run java source codes in one go.
-This is only good for running Java codes from the command prompt.
+This is only good if you're running Java codes from the command prompt.
 
 ### Name of the Program
 Don't take it too seriously :)
